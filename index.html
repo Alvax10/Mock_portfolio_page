@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/index.css">
+    <script async src="/scripts/index.js"></script>
+    <title>Alva's Page</title>
+
+    <script defer src="/scripts/menu.js"></script>
+    <link rel="stylesheet" href="/styles/menu.css">
+
+    <script defer src="/scripts/component.js"></script>
+    <link rel="stylesheet" href="/styles/component.css">
+
+
+    <script defer src="/scripts/footer.js"></script>
+    <link rel="stylesheet" href="/styles/footer.css">
+</head>
+<body>
+    <div class="general-container">
+        <div class="general-header">
+            <div class="general-header__component">
+                    <!-- this header is added as a component -->
+                </div>
+                <div class="welcome-salute">
+                    <h1 class="welcome-salute__hi">Hi</h1>
+                    <h2 class="welcome-salute__i-am">I am Alva</h2>
+                </div>
+        </div>
+        <section class="who-am-i">
+            <img src="/img/work guy.png" alt="" class="who-am-i__img">
+            <div class="who-am-i__title-and-abou-me__container">
+                <h2 class="who-am-i__title">I am Alva</h2>
+            <p class="who-am-i__about-me">Something interesting about me...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique. Phasellus placerat arcu elementum nisi ultrices cursus. Etiam sit amet aliquet lacus. Integer ut iaculis augue, sit amet tincidunt ex. In eleifend justo et sodales semper. Mauris nec tortor lectus. Curabitur nec ultricies dolor.</p>
+            </div>
+        </section>
+        <div class="my-services__container">
+            <h2 class="my-services__title">My Services</h2>
+        </div>
+        <template id="my-services__template">
+                <div class="my-services__article">
+                    <img src="/img/grupo-compu.png" alt="" class="my-services__article__img">
+                    <h3 class="my-services__article__title">I do stuff</h3>
+                    <p class="my-services__article__description">Something interesting about me...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique.</p>
+                </div>
+        </template>
+        <section class="contact-component-container">
+            <!-- contact section is added as a component -->
+        </section>
+        <section class="footer-component-container">
+            <!-- this footer is added as a component -->
+        </section>
+    </div> 
+</body>
+</html>

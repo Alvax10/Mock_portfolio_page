@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0%;
+}
+/* Header's start */
+.header-component {
+    display: flex;
+    padding: 20px 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-component__logo {
+    margin: 0%;
+    width: 122px;
+    height: 48px;
+    display: flex;
+    color: white;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+}
+@media(min-width: 800px) {
+    .header-component__logo {
+        margin-left: 20px;
+    }
+}
+.header-component__window-menu {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    padding: 15px;
+    position: absolute;
+    background-color: #161616;
+}
+@media (min-width: 800px) {
+    .header-component__open-burger-menu {
+        display: none;
+    }
+}
+.image-container {
+    margin: 0%;
+    text-align: right;
+}
+.burger-menu__opened {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.menu-page__text {
+    color: white;
+    font-size: 48px;
+    margin-top: 58px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.desktop-type {
+    display: none;
+}
+@media (min-width: 800px) {
+    .desktop-type {
+        display: inherit;
+    }
+    .header-component__pc-menu {
+        display: flex;
+    }
+    .menu-option {
+        color: white;
+        font-size: 24px;
+        padding: 0 20px ;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+    }
+}

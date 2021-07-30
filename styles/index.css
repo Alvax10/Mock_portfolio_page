@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.general-header {
+    height: 616px;
+    background-image: url("/img/bienvenidos.png");
+}
+.welcome-salute {
+    margin-top: 156px;
+    text-align: center;
+}
+.welcome-salute__hi {
+    color: white;
+    font-size: 48px;
+}
+.welcome-salute__i-am {
+    color: white;
+    font-size: 32px;
+}
+.who-am-i {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #141414;
+}
+@media (min-width: 960px) {
+    .who-am-i {
+        display: grid;
+        padding: 0 50px;
+        background: white;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.who-am-i__img {
+    display: none;
+}
+@media (min-width: 960px) {
+    .who-am-i__img {
+        display: flex;
+        margin: 58px 0px 0px 80px;
+    }
+}
+@media (min-width: 960px) {
+    .who-am-i__title-and-abou-me__container {
+        display: flex;
+        max-width: 550px;
+        flex-direction: column;
+        justify-content: left;
+    }
+}
+.who-am-i__title {
+    margin: 0;
+    color: white;
+    padding-top: 55px;
+    text-align: center;
+}
+@media (min-width: 960px) {
+    .who-am-i__title {
+        color: inherit;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+}
+.who-am-i__about-me {
+    height: 50vh;
+    color: white;
+    max-width: 312px;
+    margin: 46px auto;
+    text-align: center;
+}
+@media (min-width: 960px) {
+    .who-am-i__about-me {
+        margin: 0;
+        height: 220px;
+        color: inherit;
+        text-align: left;
+        max-width: 400px;
+    }
+}
+@media (min-width: 960px) {
+    .my-services__container {
+        display: grid;
+        min-height: 604px;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+.my-services__title {
+    font-size: 32px;
+    margin: 60px auto;
+    text-align: center;
+}
+@media (min-width: 960px) {
+    .my-services__title  {
+        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+}
+.my-services__article {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.my-services__article__img {
+    width: 138px;
+    height: 128px;
+}
+.my-services__article__title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.my-services__article__description {
+    margin-top: 0%;
+    max-width: 238px;
+    text-align: center;
+    margin-bottom: 50px;
+}
