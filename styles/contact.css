@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.header-component {
+    border: solid 3px #000;
+    background-color: #000;
+}
+@media (min-width: 960px) {
+    .header-component, .contact-container, .main-page__conatainer, body {
+        border: none;
+        background: linear-gradient(107.17deg, #408195 29.35%, rgba(0, 210, 135, 0.8) 78.73%);
+    }
+}
