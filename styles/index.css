@@ -8,7 +8,7 @@ body {
 }
 .general-header {
     height: 616px;
-    background-image: url("/img/bienvenidos.png");
+    background-image: url("img/bienvenidos.png");
 }
 .welcome-salute {
     margin-top: 156px;
