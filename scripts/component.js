@@ -32,7 +32,7 @@ function sendContactData() {
             method: 'POST',
             body: JSON.stringify ({
                 "to": "alvaro695547@gmail.com",
-                "mesage": "Desafío final de Modulo 4",
+                "message": "Desafío final de Modulo 4",
             }),
             headers:{
                 'Content-Type': 'application/json',
